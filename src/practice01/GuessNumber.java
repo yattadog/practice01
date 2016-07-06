@@ -37,10 +37,10 @@ public class GuessNumber {
 				// 입력 프롬프트
 				System.out.print(">>");
 
-				// 입력 대기
+				// 입력 받기
 				int numberGuess = scanner.nextInt();
 
-				// 결과
+				// 맞춘 경우
 				if (numberGuess == numberRandom) {
 					System.out.println("맞았습니다.");
 					break;
