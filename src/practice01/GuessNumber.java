@@ -12,8 +12,10 @@ public class GuessNumber {
 		// Scanner 생성( 표준입력 )
 		Scanner scanner = new Scanner(System.in);
 
-		// 전체 게임은 무한루프
+		// 게임 종료 플래그
 		boolean exitGame = false;
+		
+		// 게임 메인 루프
 		do {
 			// 랜덤 수 생성(1 ~ 100)
 			int numberRandom = random.nextInt(100) + 1;
