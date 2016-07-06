@@ -29,7 +29,7 @@ public class Game369 {
 				System.out.print( "짝" );
 			}
 			
-			System.out.print( "\n" );
+			System.out.println( "" );
 		}
 	}
 }
